@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">Porto<span>folio</span></a>
+  <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="about.html">À propos</a></li>
+      <li><a href="service.html">Compétences</a></li>
+      <li><a href="design.html">Projet</a></li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contact-page">
+
+  <!-- 1️⃣ FORMULAIRE DE CONTACT -->
+  <section class="contact-form-section">
+    <h1>Contactez-moi</h1>
+    <p>N’hésitez pas à me laisser un message ou à me contacter directement via vos applications préférées.</p>
+
+    <form class="contact-form" action="mailto:tonemail@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="6" placeholder="Votre message..." required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- 2️⃣ LIENS DIRECTS RÉSEAUX -->
+  <section class="social-section">
+    <h2>Ou contactez-moi sur les réseaux</h2>
+    <div class="social-icons">
+      <a href="https://wa.me/+224 628482646" target="_blank">📱 WhatsApp</a>
+      <a href="mailto:tonemail@example.com" target="_blank">✉️ Email</a>
+      <a href="https://www.linkedin.com/in/tonprofil" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/tonprofil" target="_blank">🐙 GitHub</a>
+      <a href="https://instagram.com/tonprofil" target="_blank">📸 Instagram</a>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
